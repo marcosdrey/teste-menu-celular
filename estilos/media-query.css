@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    nav > ul > li > a {
+        background-color: #a11405;
+        border-top: none;
+        border-radius: 10px;
+    }
+
+    nav > ul > li > a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    main {
+        width: 768px;
+    }
+}
